@@ -2,7 +2,6 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://laurbaur024.github.io/react-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
