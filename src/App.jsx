@@ -15,7 +15,7 @@ export default function App() {
   return (
     <>
     <Navigation></Navigation>
-    {/* <AboutMe></AboutMe> */}
+    <AboutMe></AboutMe>
     <Portfolio></Portfolio>
     <Footer></Footer>
     </>
