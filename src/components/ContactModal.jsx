@@ -15,6 +15,8 @@ class  ContactModal extends Component {
     })
   }
 
+
+  
   
 
   render() {
@@ -29,7 +31,7 @@ class  ContactModal extends Component {
                 <form>
                   <p className="h5 text-center mb-4">Send me an e-mail!</p>
                   <div className="grey-text">
-                    <MDBInput label="Your name"type="text" validate error="wrong" success="right" required='required'/>
+                    <MDBInput value="name" label="Your name"type="text" validate error="wrong" success="right" />
                     <MDBInput label="Your email" type="email" validate error="wrong" success="right"/>
                     <MDBInput label="Subject" type="text" validate error="wrong" success="right"/>
                     <MDBInput type="textarea" rows="4" label="Your message" icon="pencil-alt"/>

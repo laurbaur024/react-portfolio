@@ -8,7 +8,7 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import PageNotFound from './components/404'
-
+// import Resume from './components/Resume'
 
 
 
@@ -22,6 +22,7 @@ export default function App() {
             <Route path='/' element={<AboutMe/>} />
             <Route path='/about' element={<AboutMe/>} />
             <Route path='/portfolio' element={<Portfolio/>} />
+            {/* <Route path='/resume' element={<Resume/>} /> */}
 
             <Route path='*' element={<PageNotFound/>} />
           </Routes>
