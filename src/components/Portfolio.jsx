@@ -9,7 +9,7 @@ export default function Portfolio () {
     textAlign: 'center',
     marginBottom: '20px',
     fontFamily: 'helvetica',
-    justifyContent: 'center'
+    justifyContent: 'center',
   }
 
   const img = {
@@ -24,14 +24,19 @@ export default function Portfolio () {
     marginBottom: '20px', 
     marginLeft: '20px', 
     marginRight: '20px',
-    backgroundColor: '#F4EDEA ' 
+    backgroundColor: '#EFF6EE',
   }
+
+  const textColor = {
+    color:'#273043'
+  }
+
   return (
     <MDBContainer style={container}>
       <div className="parts row" style={{marginBottom:'20px'}}>
         <Card style={card}>
           <div className='bg-image hover-zoom'>
-          <Card.Img  style={img} variant="top" src="/img/safepaws.png" />
+          <Card.Img  style={img} variant="top" src="./img/safepaws.png" />
           </div>
           <Card.Body>
             <Card.Title>Safe Paws</Card.Title>

@@ -6,6 +6,8 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import PageNotFound from './components/404'
 
 
 
@@ -14,10 +16,17 @@ export default function App() {
   
   return (
     <>
-    <Navigation></Navigation>
-    <AboutMe></AboutMe>
-    <Portfolio></Portfolio>
-    <Footer></Footer>
+      <BrowserRouter>
+        <Navigation/>
+          <Routes>
+            <Route path='/' element={<AboutMe/>} />
+            <Route path='/about' element={<AboutMe/>} />
+            <Route path='/portfolio' element={<Portfolio/>} />
+
+            <Route path='*' element={<PageNotFound/>} />
+          </Routes>
+        <Footer/>
+      </BrowserRouter>
     </>
   )
 }

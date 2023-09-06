@@ -10,7 +10,7 @@ export default function AboutMe () {
     display: 'block',
     marginLeft: 'auto',
     marginRight: 'auto',
-    borderRadius: '5px',
+    borderRadius: '20px',
 
   }
 
@@ -18,10 +18,11 @@ export default function AboutMe () {
     borderStyle: 'double',
     marginLeft: '10px',
     marginRight: '10px',
-    borderColor: '#20c997',
-    borderRadius: '5px',
+    borderColor: '#273043',
+    borderRadius: '20px',
     marginTop: '10px',
     marginBottom: '10px',
+    backgroundColor: '#EFF6EE'
   }
 
   const container = {
@@ -38,7 +39,7 @@ export default function AboutMe () {
   return (
       <MDBContainer >
         <section style = {container} id = 'about-me' className="about-me-section">
-          <h3>Get to know Lauren...</h3>
+          <h3 style={{fontSize: '50px'}}>Welcome! Get to know Lauren...</h3>
           <div className="parts row">
             <div style={borders} className="parts-wrapper col-md">
               <h5>About Me</h5>
