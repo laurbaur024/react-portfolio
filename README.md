@@ -13,10 +13,10 @@
 
 ## Screenshot
 
-- Here is a screenshot of the working webpage and the installed PWA.
-![homework](./assets/homework-screenshot.png)
+- Here is a screenshot of the working webpage.
+![homework](./public/img/homework-screenshot.png)
 
 ## Working Code
 
 - Here is a link to a working version of my code:
-[React Portfolio]()
+[React Portfolio](https://brilliant-sawine-f9eaae.netlify.app/)
