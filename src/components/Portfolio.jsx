@@ -63,16 +63,16 @@ export default function Portfolio () {
           </Card.Body>
         </Card>
         <Card style={card}>
-          <Card.Img style={img} variant="top" src="/img/weather.png" />
+          <Card.Img style={img} variant="top" src="/img/minnegrowta-home.jpg" />
           <Card.Body>
-            <Card.Title>What's the Weather In...?</Card.Title>
+            <Card.Title>MinneGrowta</Card.Title>
             <Card.Text>
-             This simple weather app uses the OpenWeather API to get the current weather and the weather for the next 5 days of any location you type. Using local storage, your recently searched cities will stay saved at the bottom of the screen.
+              Minnegrowta is a MERN application plant database for Minnesotans who are wondering what and how to make a garden thrive in our climate. You can sign in, view your dashboard, write journal posts, and interact with other users in the "Florum".
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href="https://github.com/laurbaur024/weather-app" target="_blank">View Repo</Card.Link>
-            <Card.Link href="https://laurbaur024.github.io/weather-app/" target="_blank">View Deployment</Card.Link>
+            <Card.Link href="https://github.com/laurbaur024/minnegrowta" target="_blank">View Repo</Card.Link>
+            <Card.Link href="https://minnegrowta-66ed74e127f3.herokuapp.com/" target="_blank">View Deployment</Card.Link>
           </Card.Body>
         </Card>
       </div>
@@ -104,16 +104,16 @@ export default function Portfolio () {
           </Card.Body>
         </Card>
         <Card style={card}>
-          <Card.Img style={img} variant="top" src="/img/pwa.png" />
+          <Card.Img style={img} variant="top" src="/img/weather.png" />
           <Card.Body>
-            <Card.Title>J.A.T.E. (PWA)</Card.Title>
+            <Card.Title>What's the Weather In...?</Card.Title>
             <Card.Text>
-              Just Another Text Editor is an application that I added PWA functionality to. You can hit the install button on the deployed application, install J.A.T.E, and use it even when you do not have internet. Once back on internet, whatever typed will sync back up.
+             This simple weather app uses the OpenWeather API to get the current weather and the weather for the next 5 days of any location you type. Using local storage, your recently searched cities will stay saved at the bottom of the screen.
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href="https://github.com/laurbaur024/pwa-homework" target="_blank">View Repo</Card.Link>
-            <Card.Link href="https://pwa-homework-text-editor-a2b38e8745a7.herokuapp.com/" target="_blank">View Deployment</Card.Link>
+            <Card.Link href="https://github.com/laurbaur024/weather-app" target="_blank">View Repo</Card.Link>
+            <Card.Link href="https://laurbaur024.github.io/weather-app/" target="_blank">View Deployment</Card.Link>
           </Card.Body>
         </Card>
       </div>   

@@ -11,6 +11,7 @@
     "predeploy": "npm run build"
   },
   "dependencies": {
+    "@cyntler/react-doc-viewer": "github:cyntler/react-doc-viewer",
     "bootstrap": "^5.3.1",
     "bootstrap-css-only": "^4.4.1",
     "fontawesome": "^5.6.3",

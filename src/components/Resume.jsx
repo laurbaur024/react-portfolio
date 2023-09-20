@@ -1,17 +1,15 @@
+import React from "react";
+import {Container, Row} from "react-bootstrap"
+import DocViewer, {DocViwerRenderers} from "@cyntler/react-doc-viewer"
 
-import {Document, Page } from 'react-pdf';
 
-import { pdfjs } from 'react-pdf';
-
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
-
-export default function Resume() {
-
+export default function Resume () {
+  const docs = [{uri: require("../../public/resume-portfolio.pdf")}]
   return (
-    <div style={{textAlign:'center'}}>
-      <Document file="resume-portfolio.pdf">
-        <Page pageNumber={1}/>
-      </Document>
-    </div>
-  );
+    <Container>
+      <Row>
+        <DocViewer pluginRenderers={DocViwerRenderers} documents={docs} />
+      </Row>
+    </Container>
+  )
 }
